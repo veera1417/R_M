@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+  
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/mobile-app.jpg);
+   height: 100vh;
+   width: 100%;
+   background-size: 100% 100%;
+}
+
+.header h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-size: 40px;
+    color: white;
+    background-color: #eba76c;
+  height: 110px;
+  padding-top: 50px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+   border-radius: 20px;
+   position: relative;
+   left: 30px;
+   top: -90px;
+ 
+}
+.header a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    top: -130px;
+    left: 1000px;
+    padding: 10px;
+}
+    footer{
+        background: #474646;
+        padding-top: 50px;
+    }
+    .container{
+       
+        width: 1440px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        color: #dfd9d3;
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        
+        padding: 0;
+    }
+    .list li{
+        color: #dfd9d3;
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list a{
+        color: #dfd9d3;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #0c0c0b;
+    }
+    .social-icons i:hover{
+        color: #f18930;
+    }
+    .time{
+        width: 33.3%;
+    }
+    h5{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .time ul{
+        text-align: center;
+        color: #dfd9d3;
+    }
+    .time li{
+        list-style: none;
+    }
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+.abt h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.header-abt{
+    height:120vh ;
+    width: 100%;
+    background-color: #dfd9d3;
+}
+.header-abt h2{
+    color: black;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: 15px;
+}
+.header-abt p{
+    color: black;
+    position: relative;
+    top: 25px;
+}
+.ser1 h4{
+    color: black;
+    font-size: 35px;
+    position: relative;
+    top: 200px;
+    left: 950px;
+}
+.ser1 li{
+    position: relative;
+    color: black;
+    top: 210px;
+    left: 980px;
+    font-size: 20px;
+    padding: 15px;
+}
+.ser1 img{
+    height: 450px;
+    width: 450px;
+    top: -200px;
+    border-radius: 40px;
+    left: 80px;
+}
+.ser h3{
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 20px;
+   font-size: 35px;
+}
+.ser{
+    position: relative;
+    background-color:black;
+    top: -100px;
+    height: 600px;
+    width: 100%;
+}
+.ser hr{
+    position: relative;
+    top: 10px;
+    width: 80px;
+   left: 750px;
+   height: 0px;
+}
+.ser h4{
+    position: relative;
+    top: 60px;
+    color: rgb(105, 98, 98);
+    text-align: center;
+    font-size: 20px;  
+}
+.one img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 210px;
+}
+.one p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    margin-left: 150px;
+    font-size: 30px;
+    
+}
+.one:hover{
+    position: absolute;
+    height: 5vh;
+    width: 30%;
+}
+.two img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+.two p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 650px;
+    font-size: 30px;
+}
+.two:hover{
+    position: absolute;
+    height: 5vh;
+    width: 30%;
+}
+.three img{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    position: absolute;
+    top: 250px;
+    left: 1230px;
+}
+.three p{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 1210px;
+    font-size: 30px;
+}
+.three:hover{
+    position: absolute;
+    height: 5vh;
+    width: 30%;
+}
+.feed{
+    height: 70vh;
+    width: 100%;
+    background-color: #dfd9d3;
+    position: relative;
+    top: -50px;
+}
+.feed input{
+    padding: 20px;
+    margin: 10px;
+}
+.feed h1{
+    position: relative;
+    top: -20px;
+}
+.feed form{
+    position: relative;
+    top: 60px;
+}
+.mail{
+    width: 700px;
+    font-size: 18px;
+}
+.name{
+    position: relative;
+left: -15px;
+width: 300px;
+font-size: 18px;
+}
+.num{
+    position: relative;
+    width: 300px;
+    left: 15px;
+    font-size: 18px;
+}
+.back{
+    position: relative;
+    width:700px;
+    font-size: 18px;
+}
+.feed button{
+    position: relative;
+    width: 746px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+.feed a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
